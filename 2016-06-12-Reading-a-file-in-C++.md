@@ -1,15 +1,6 @@
----
-layout: post
-title: Reading & Writing to a file line by line in C++
-categories: [code]
-tags: [C++, file]
-fullview: true
-comments: true
----
-
 Read a file line by line in C++ & then write to it.
 
-{% highlight yaml %}
+```
 
 #include <iostream>
 #include <string>
@@ -36,7 +27,7 @@ int main(int argc, const char * argv[]) {
 
 }
 
-{% endhighlight %}
+```
 
 
 
@@ -60,8 +51,7 @@ ios::trunc   | If the file is opened for output operations and it already existe
 
 
 
-{% highlight yaml %}
-
+```
 ifstream file("/Users/piyushkhemka/Downloads/MCC/fmn.txt", ios::in);
 
    while(getline(file, line)) {
@@ -88,4 +78,4 @@ ifstream file("/Users/piyushkhemka/Downloads/MCC/fmn.txt", ios::in);
        cout << endl << endl<< endl << endl<< endl << endl;
    }
 
-{% endhighlight %}
+``````
