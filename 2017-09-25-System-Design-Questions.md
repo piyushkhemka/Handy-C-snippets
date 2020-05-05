@@ -1,23 +1,15 @@
----
-layout: post
-title: System Design Questions step by step
-categories: [system]
-tags: [System]
-fullview: true
-comments: true
----
 
 Steps for System Design Questions
 
 Steps
-{% highlight yaml %}
+```
 1. Use Cases
 2. Constraints
 3. Abstract Design
 4. Bottleneck
 5. Scalability
 
-{% endhighlight %}
+```
 
 ## Use Cases
 

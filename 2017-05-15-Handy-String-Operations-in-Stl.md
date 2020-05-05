@@ -1,17 +1,10 @@
----
-layout: post
-title: Handy String operations in STL
-categories: [code]
-tags: [C++, STL]
-fullview: true
-comments: true
----
+
 
 <br>
 <br>
 
 
-{% highlight yaml %}
+```
 
 isalpha(c) - Returns true if c is an alphabet
 isalnum(c) - Returns true if c is an alphanumeric character
@@ -25,4 +18,4 @@ The value is returned as an int value that can be implicitly casted to char.
 to_string(x) - Converts string x to string
 
 
-{% endhighlight %}
+```

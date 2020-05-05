@@ -1,11 +1,4 @@
----
-layout: post
-title: System/OS Questions
-categories: [sytem]
-tags: [sytem, questions]
-fullview: true
-comments: true
----
+
 
 ## Locks vs Mutex vs Semaphore
 
